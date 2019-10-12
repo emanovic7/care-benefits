@@ -1,15 +1,18 @@
 import React from 'react';
 import './App.css';
 
+//Containers
+import LandingPage from './containers/landingPage';
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        Care Benefits
-      </header>
-      <nav>
-        
-      </nav>
+      <div>
+        <nav>
+          
+        </nav>
+      </div>
+      <LandingPage />
     </div>
   );
 }
